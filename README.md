@@ -9,7 +9,7 @@ J'ai supprimé de la liste 'name'.
 
 J'ai ajouté un fichier 'validator.py' pour écrire une fonction qui renvoit une erreur si le Gtin n'a pas exactement 13 digits. 
 
-* When adding a new product, the site should send a request to OpenFoodFact to gather the product name and an image url. The api documentation can be found here: https://world.openfoodfacts.org/data
+* When adding a new product, the site should send a request to Open Food Facts website to gather the product name and an image url. The api documentation can be found here: https://world.openfoodfacts.org/data
 
 Pour cette partie j'ai crée une fonction pour faire un get request avec l'URL complétée par le numéro du code barre. J'ai aussi crée deux fonctions pour extraire le nom et l'url de la photo du fichier json. Il y a sûrement une manière plus 'jolie' d'écrire ces fonctions mais je n'ai pas réussi à trouver de librairies ou fonctions qui me permettraient de faire ceci.
 
